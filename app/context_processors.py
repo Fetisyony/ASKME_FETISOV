@@ -1,6 +1,6 @@
 import datetime
 from app.models import Profile, Tag
-from askme_fetisov.settings import MEDIA_URL
+from heap_overflow.settings import MEDIA_URL
 import os
 import time, jwt
 from django.conf import settings

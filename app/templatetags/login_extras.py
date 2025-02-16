@@ -1,7 +1,7 @@
 from urllib.parse import urlencode
 from django import template
 from django.urls import reverse
-from askme_fetisov.settings import MEDIA_URL
+from heap_overflow.settings import MEDIA_URL
 import os
 
 register = template.Library()

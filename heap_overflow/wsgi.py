@@ -1,5 +1,5 @@
 """
-WSGI config for askme_fetisov project.
+WSGI config for heap_overflow project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -13,7 +13,7 @@ import os
 from django.core.wsgi import get_wsgi_application
 from urllib.parse import parse_qs
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'askme_fetisov.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'heap_overflow.settings')
 
 application_core = get_wsgi_application()
 
